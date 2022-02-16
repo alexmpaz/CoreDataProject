@@ -11,6 +11,8 @@
 		EC536CA527BD5A6B006D6092 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC536CA427BD5A6B006D6092 /* ContentView.swift */; };
 		EC536CA727BD5A6E006D6092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC536CA627BD5A6E006D6092 /* Assets.xcassets */; };
 		EC536CAA27BD5A6E006D6092 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC536CA927BD5A6E006D6092 /* Preview Assets.xcassets */; };
+		EC536CB127BD5AE6006D6092 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC536CB027BD5AE6006D6092 /* DataController.swift */; };
+		EC536CB427BD5BC2006D6092 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC536CB227BD5BC2006D6092 /* CoreDataProject.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EC536CA427BD5A6B006D6092 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC536CA627BD5A6E006D6092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC536CA927BD5A6E006D6092 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC536CB027BD5AE6006D6092 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		EC536CB327BD5BC2006D6092 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EC536CA227BD5A6B006D6092 /* CoreDataProjectApp.swift */,
 				EC536CA427BD5A6B006D6092 /* ContentView.swift */,
+				EC536CB027BD5AE6006D6092 /* DataController.swift */,
+				EC536CB227BD5BC2006D6092 /* CoreDataProject.xcdatamodeld */,
 				EC536CA627BD5A6E006D6092 /* Assets.xcassets */,
 				EC536CA827BD5A6E006D6092 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC536CA527BD5A6B006D6092 /* ContentView.swift in Sources */,
+				EC536CB127BD5AE6006D6092 /* DataController.swift in Sources */,
+				EC536CB427BD5BC2006D6092 /* CoreDataProject.xcdatamodeld in Sources */,
 				EC536CA327BD5A6B006D6092 /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +349,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC536CB227BD5BC2006D6092 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC536CB327BD5BC2006D6092 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = EC536CB327BD5BC2006D6092 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC536C9727BD5A6B006D6092 /* Project object */;
 }
